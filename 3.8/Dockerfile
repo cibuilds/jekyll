@@ -16,7 +16,7 @@ RUN apk --no-cache add \
 	ruby-full \
 	zlib-dev
 
-ENV JEKYLL_VERSION=3.8.4
+ENV JEKYLL_VERSION=3.8.5
 
 RUN	gem install \
 		bundler \
